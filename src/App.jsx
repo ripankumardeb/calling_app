@@ -65,14 +65,14 @@ function App() {
         />
 
         <button
-          className='w-[200px] h-[50px] bg-white text-black text-[20px] rounded-2xl'
+          className='w-[200px] h-[50px] bg-emerald-400 text-black text-[20px] rounded-2xl'
           onClick={() => invite(ZegoUIKitPrebuilt.InvitationTypeVoiceCall)}
         >
           Voice Call
         </button>
 
         <button
-          className='w-[200px] h-[50px] bg-white text-black text-[20px] rounded-2xl'
+          className='w-[200px] h-[50px] bg-amber-400 text-black text-[20px] rounded-2xl'
           onClick={() => invite(ZegoUIKitPrebuilt.InvitationTypeVideoCall)}
         >
           Video Call
